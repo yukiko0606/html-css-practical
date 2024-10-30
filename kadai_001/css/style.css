@@ -42,22 +42,24 @@ header {
     text-align: center;
     margin: 50px 0 50px 0;
 }
+
 #about-flex {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     align-items:center;
-    margin: 0 auto;
-    /* max-width: 960px; */
-    padding: 10px 0;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 10px;
 }
 #about-flex > img {
-    margin: 0 50px 0 50px;
-    /* 左上 | 右上 | 右下 | 左下 */
-    border-radius: 145px 145px 145px 145px;
+    margin: 0 auto;
+    border-radius:50%;
+    width: 280px;
+    height: 280px;
 }
 #about-explain {
-    padding: 0 40px 0 40px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 #about-explain > h3 {
     font-size: 24px;
@@ -65,6 +67,7 @@ header {
 #about-explain li {
     font-size: 18px;
 }
+
 #works-flex {
     display: flex;
     justify-content: center;
@@ -112,5 +115,6 @@ footer p {
     }
     .works-explain > p {
         padding-bottom: 40px;
+        text-align: center;
     }
 }
